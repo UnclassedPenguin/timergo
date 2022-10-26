@@ -6,6 +6,7 @@ Go has become my favorite language of late. Previously I had written this simple
 
 Just a note, I use linux. These have never been intended to run on windows. If you'd like to fix it though, feel free to send a pull request. 
 
+And another note. The notification is supposed to beep. On my system, I haven't been able to get it to work. So I have no idea if it will work on other systems or not, but you may get an annoying beep. I have no idea how loud/annoying it is...So just be aware if you try running it. 
 
 ## To install
 

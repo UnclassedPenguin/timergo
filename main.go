@@ -1,11 +1,11 @@
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
 //
-// Tyler(UnclassedPenguin) Timer 2022
+// Tyler(UnclassedPenguin) TimerGo 2022
 //
 //      Author: Tyler(UnclassedPenguin)
 //         URL: https://unclassed.ca
-//      GitHub: https://github.com/UnclassedPenguin/scripts/
+//      GitHub: https://github.com/UnclassedPenguin/timergo.git
 // Description: I just wanted a simple timer. Now in Go!
 //
 //------------------------------------------------------------------------------
@@ -58,6 +58,7 @@ func getTime() string {
 
 // Takes a single digit, and returns a binary value with all the leading zeros.
 // ie, takes 7, returns 00000111
+// This seems to be an unused function? I should probably remove it...
 func getBinary(num int) string {
   binary := fmt.Sprintf("%08b", num)
   return binary
@@ -81,7 +82,6 @@ func executeCmd(command string) {
     fmt.Println(stderr.String())
   }
 }
-
 
 func main() {
   //programName := os.Args[0]
