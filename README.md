@@ -6,7 +6,6 @@ Go has become my favorite language of late. Previously I had written this simple
 
 Just a note, I use linux. These have never been intended to run on windows. If you'd like to fix it though, feel free to send a pull request. 
 
----
 
 ## To install
 
@@ -14,7 +13,6 @@ Just a note, I use linux. These have never been intended to run on windows. If y
 $ go install github.com/unclassedpenguin/timergo@latest
 ```
 
----
 
 ## Usage
 To just use a simple timer that will run infinitely
