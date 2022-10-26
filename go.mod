@@ -1,4 +1,4 @@
-module timergo
+module github.com/unclassedpenguin/timergo
 
 go 1.19
 
