@@ -53,4 +53,6 @@ $ timergo -t 30 -c "echo 'hello'"
 
 This would run the command echo hello after the 30 seconds is up.
 
----
+## Todo
+
+- Add ability to take time as minutes/hours at least. things like "5m" or "1h"
